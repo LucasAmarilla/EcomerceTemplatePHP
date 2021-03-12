@@ -1,0 +1,45 @@
+main{
+  margin-top: 72px;
+  min-height: calc(100vh - 72px - 128px);
+}
+
+.foto-principal{
+  background-image: url("https://lh3.googleusercontent.com/proxy/XV52fRidOldgQ3dG39-z-hljRBfk8ZEeFFlNz6pt2IpF7h_Jl71Qm-aDred0KSNl37c7TQqIT0DlqOoIRc38F-4t9FijiIlgzc3bo-WCXXwSKw4LzO6weqIHC4nqBiWil_N3GfY");
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+  margin: 0;
+}
+
+.texto{
+  text-shadow: 1px 1px 20px black;
+}
+
+.filtro{
+  position: relative;
+  top: -40px;
+}
+.resultados{
+  display: grid
+  grid-template-columns: 200px 200px 200px;
+
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+a{
+  text-decoration: none;
+
+}
+a:hover{
+  text-decoration: none;
+
+}
